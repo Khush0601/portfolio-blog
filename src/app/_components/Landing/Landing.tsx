@@ -57,7 +57,7 @@ export default async function Landing() {
             </div>
 
             <div className="flex justify-center items-center">
-                <div className="relative  w-[300px] h-[300px] md:w-[350px] md:h-[350px]">
+                <div className="relative  w-[300px] h-[400px] md:w-[350px] md:h-[400px]">
                     <SwiperList imageList={introData?.images || []} />
                 </div>
             </div>

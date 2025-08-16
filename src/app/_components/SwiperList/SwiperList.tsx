@@ -18,7 +18,7 @@ const SwiperList = ({ imageList = [] }) => {
         >
             {imageList.map((imageUrl, index) => (
                 <SwiperSlide key={index} >
-                    <div className="relative w-[300px] h-[300px] md:w-[350px] md:h-[350px]">
+                    <div className="relative w-[300px] h-[400px] md:w-[350px] md:h-[400px]">
                         <Image
                             src={imageUrl ? imageUrl : "/profile.jpg"}
                             // src={"/profile.jpg"}
