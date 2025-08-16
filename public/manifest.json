@@ -1,0 +1,22 @@
+{
+  "name": "Khushboo Portfolio",
+  "short_name": "K.P",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "oklch(65.6% .241 354.308)",
+  "theme_color": "#317EFB",
+  "icons": [
+    {
+      "src": "/icon/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

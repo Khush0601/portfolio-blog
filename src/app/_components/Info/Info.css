@@ -1,0 +1,120 @@
+.about-section {
+  padding: 65px 0px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #1f2937;
+  /* margi  n-top: 65px; */
+}
+
+.about-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: #111827;
+  /* margin-bottom: 40px; */
+  position: relative;
+}
+
+
+
+
+
+.about-left,
+.about-right {
+padding: 20px;
+}
+
+.subheading {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #111827;
+}
+
+.about-left p {
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.highlight {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.skill-group {
+  margin-bottom: 32px;
+}
+
+.skill-group h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skill-badge {
+  background-color: #ffffff;
+  padding: 10px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+
+
+.about-title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+
+
+
+.about-left, .about-right {
+    background: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.subheading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #111827;
+}
+
+.highlight {
+    color: #4f46e5;
+    font-weight: 600;
+}
+
+
+
+
+.label {
+    font-weight: 600;
+    color: #374151;
+}
+
+.value {
+    color: #6b7280;
+    font-size: 0.95rem;
+}
+
+@media screen and (max-width: 775px) {
+ .value {
+    color: #6b7280;
+    font-size: 0.85rem;
+}
+
+}
+
+

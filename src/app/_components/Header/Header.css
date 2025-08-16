@@ -1,0 +1,14 @@
+.active-nav{
+    border-bottom: 4px solid oklch(65.6% .241 354.308);
+}
+.nav-sm{
+ padding-left: 8px;
+}
+.active-nav-sm{
+    background-color:oklch(65.6% .241 354.308) ;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+    
+    
+}

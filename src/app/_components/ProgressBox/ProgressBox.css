@@ -1,0 +1,22 @@
+
+.negative{
+    background-color: rgba(50,0,0,0.35);
+}
+
+.positive{
+    background-color: rgba(0,50,0,0.35);
+}
+
+.three-d-text {
+  text-shadow: 1px 1px 0 #333, 2px 2px 0 #111;
+}
+.title::before{
+  content: ' ';
+  width: 4px;
+  position: absolute;
+  height: 15px;
+  margin-top: 7px;
+  margin-left: -6px;
+  background-color: oklch(65.6% .241 354.308);
+  border-radius: 4px;
+}
